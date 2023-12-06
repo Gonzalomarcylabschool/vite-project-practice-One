@@ -8,7 +8,36 @@
     <script defer type="module" src="/src/main.js"></script>
   </head>
   <body>
-    <div id="app"></div>
+    <div id="app">
+      <form id="movie-input">
+        <div>
+          <label for="name"></label>
+          <input type="text" name="name" id="name" placeholder="Name">
+        </div>
+        <div>
+          <label for="color"></label>
+          <input type="color" name="color" id="color" value="#5b6e8c">
+        </div>
+        <div>
+          <label for="age"></label>
+          <input type="text" name="age" id="age" placeholder="Age">
+        </div>
+        <select id="cars" name="cars">
+          <!-- Option 1 -->
+          <option value="volvo">Volvo</option>
+
+          <!-- Option 2 -->
+          <option value="saab">Saab</option>
+
+          <!-- Option 3 -->
+          <option value="mercedes">Mercedes</option>
+
+          <!-- Option 4 -->
+          <option value="audi">Audi</option>
+      </select>
+        <button>add movie</button>
+      </form>
+    </div>
     
   </body>
 </html>
